@@ -31,6 +31,27 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Passion One', cursive;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  p,.btn,input,div,span,h4 {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+}
+
 .bold {
   font-weight: 700;
 }
@@ -42,6 +63,10 @@ a, a:link, a:visited, a:hover, a:active {
 
 .nav {
   padding-right: 10px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #B9EE00;
 }
 
 .nav > li > a {
@@ -60,6 +85,10 @@ a, a:link, a:visited, a:hover, a:active {
 
 .background_navbar_footer {
   width: 100%;
+}
+
+.container_width {
+
 }
 
 .background_skin {
@@ -82,6 +111,15 @@ a, a:link, a:visited, a:hover, a:active {
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .wall-text-background {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+  }
 }
 
 .wall-text-background_first {
@@ -118,6 +156,12 @@ a, a:link, a:visited, a:hover, a:active {
 
 .project_left {
   padding-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .project_left {
+    padding-left: 20px;
+  }
 }
 
 .title_project {
@@ -193,6 +237,16 @@ a, a:link, a:visited, a:hover, a:active {
 
 .body_text_image {
   margin-top: -50px;
+}
+
+@media screen and (max-width: 768px) {
+  .body_text_image {
+    padding-top: 50px;
+  }
+}
+
+.about_footer {
+  margin-top: 50px;
 }
 
 .roate_image {
